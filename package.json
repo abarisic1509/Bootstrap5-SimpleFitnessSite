@@ -1,0 +1,22 @@
+{
+  "name": "fitness-site",
+  "version": "1.0.0",
+  "description": "",
+  "source": "./src/index.html",
+  "scripts": {
+    "dev": "parcel",
+    "start": "parcel ./src/index.html",
+    "build": "parcel build ./src/index.html --public-url /"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.6.0",
+    "parcel": "^2.6.0"
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.11.5",
+    "bootstrap": "^5.1.3"
+  }
+}

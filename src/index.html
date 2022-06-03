@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness site</title>
+
+    <!--Google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;0,700;1,900&display=swap" rel="stylesheet">
+
+    <!--fontawesome-->
+    <script src="https://kit.fontawesome.com/02d4b06e1c.js" crossorigin="anonymous"></script>
+
+    <!--custom style-->
+    <link rel="stylesheet" href="./assets/scss/custom.scss">
+</head>
+<body data-bs-spy="scroll" data-bs-target="#navbar" tabindex="0">
+    <a href="#home" class="skip-link">Skip to content</a> 
+    <header class="container-fluid" id="main-header">
+        <!--Main navigation-->
+        <nav class="navbar navbar-dark navbar-expand-md container align-center">
+            <a href="#" class="navbar-brand"><span class="text-primary fs-3 text-uppercase fw-bold py'0">Fit</span>ness</a>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar" aria-expanded="false">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="navbar-collapse collapse" id="navbar">
+                <ul class="navbar-nav ms-auto fs-5">
+                    <li class="nav-item"><a href="#home" class="nav-link active">Home</a></li>
+                    <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                    <li class="nav-item"><a href="#courses" class="nav-link">Courses</a></li>
+                    <li class="nav-item"><a href="#pricing" class="nav-link">Pricing</a></li>
+                    <li class="nav-item"><a href="#team" class="nav-link">Team</a></li>
+                    <li class="nav-item"><a href="#faq" class="nav-link">FAQ</a></li>
+                    <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!--Home-->
+        <section class="home d-flex jc-c ai-c text-center" id="home" aria-label="Home">
+            <div class="container my-auto">
+                <p class="text-capitalize text-primary fw-bolder fs-5">Get ready for a new season</p>
+                <h1 class="mt-3 mb-5 fw-bold">Start the change today</h1>
+                <a href="#courses" class="btn btn-lg btn-outline-primary">Get started</a>
+            </div>
+        </section>
+
+        <!--About-->
+        <section class="about" id="about" aria-label="About us">
+            <div class="heading">
+                <p class="subtitle">About us</p>
+                <h2>Workout from home</h2>
+            </div>
+            <div class="container">
+                <div class="row mx-auto">
+                    <div class="content col-lg-6 my-auto">
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas, aspernatur quis. Minima praesentium porro, hic, ad pariatur incidunt cum reprehenderit repellat molestiae nobis maxime alias sequi magnam assumenda? Facilis, neque?</p>
+                        <ul>
+                            <li><i class="far fa-check-square"></i>Boost your immune system</li>
+                            <li><i class="far fa-check-square"></i>30 days fit challenge</li>
+                            <li><i class="far fa-check-square"></i>Excercise guides</li>
+                            <li><i class="far fa-check-square"></i>Benefits of excercise</li>
+                        </ul>
+                    </div>
+                    <div class="image col-lg-6">
+                        <img src="./assets/media/about-us.png" class="img-fluid" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="counter container-fluid">
+                <div class="container mx-auto py-5 text-center">
+                    <div class="row">
+                        <div class="box col-sm-6 col-md-3 mt-3 mt-md-0">
+                            <p>50+</p>
+                            <h3>Online courses</h3>
+                        </div>
+                        <div class="box col-sm-6 col-md-3">
+                            <p>150+</p>
+                            <h3>Online instructors</h3>
+                        </div>
+                        <div class="box col-sm-6 col-md-3">
+                            <p>350+</p>
+                            <h3>Fitness equipment</h3>
+                        </div>
+                        <div class="box col-sm-6 col-md-3">
+                            <p>500+</p>
+                            <h3>Happy customers</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Courses -->
+        <section class="courses container mx-auto" id="courses" aria-label="Our courses">
+            <div class="heading">
+                <p class="subtitle">Our courses</p>
+                <h2>Latest courses for beginners and advanced</h2>
+            </div>
+
+            <div class="row row-cols-1 row-cols-md-2 row-cols-xl-3 g-4">
+                <div class="col">
+                  <article class="card-dark h-100">
+                    <img src="./assets/media/cardio.jpg" class="card-img-top" alt="">
+                    <div class="card-body">
+                        <ul class="icons d-flex justify-content-between ps-0">
+                            <li><i class="fas fa-calendar"></i>Mon - Sat</li>
+                            <li><i class="fas fa-clock"></i>1 hour</li>
+                        </ul>
+                        <h3 class="card-title">Cardio</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat exercitationem soluta nostrum qui alias quisquam nihil quidem porro veniam sequi!</p>
+                        <a href="#" class="btn btn-lg btn-outline-primary">Read more</a>
+                    </div>
+                  </article>
+                </div>
+                <div class="col">
+                  <article class="card-dark h-100">
+                    <img src="./assets/media/weights.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <ul class="icons d-flex justify-content-between ps-0">
+                            <li><i class="fas fa-calendar"></i>Mon - Sat</li>
+                            <li><i class="fas fa-clock"></i>1 hour</li>
+                        </ul>
+                        <h3 class="card-title">Weight lifting</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat exercitationem soluta nostrum qui alias quisquam nihil quidem porro veniam sequi!</p>
+                        <a href="#" class="btn btn-lg btn-outline-primary">Read more</a>
+                    </div>
+                  </article>
+                </div>
+                <div class="col">
+                  <article class="card-dark h-100">
+                    <img src="./assets/media/individual.jpg" class="card-img-top" alt="">
+                    <div class="card-body">
+                        <ul class="icons d-flex justify-content-between ps-0">
+                            <li><i class="fas fa-calendar"></i>Mon - Sat</li>
+                            <li><i class="fas fa-clock"></i>1 hour</li>
+                        </ul>
+                        <h3 class="card-title">Individual training</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat exercitationem soluta nostrum qui alias quisquam nihil quidem porro veniam sequi!</p>
+                        <a href="#" class="btn btn-lg btn-outline-primary">Read more</a>
+                    </div>
+                  </article>
+                </div>
+                <div class="col">
+                    <article class="card-dark h-100">
+                      <img src="./assets/media/yoga.jpg" class="card-img-top" alt="">
+                      <div class="card-body">
+                        <ul class="icons d-flex justify-content-between ps-0">
+                            <li><i class="fas fa-calendar"></i>Mon - Sat</li>
+                            <li><i class="fas fa-clock"></i>1 hour</li>
+                        </ul>
+                          <h3 class="card-title">Yoga</h3>
+                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat exercitationem soluta nostrum qui alias quisquam nihil quidem porro veniam sequi!</p>
+                          <a href="#" class="btn btn-lg btn-outline-primary">Read more</a>
+                      </div>
+                    </article>
+                  </div>
+                  <div class="col">
+                    <article class="card-dark h-100">
+                      <img src="./assets/media/pilates.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <ul class="icons d-flex justify-content-between ps-0">
+                            <li><i class="fas fa-calendar"></i>Mon - Sat</li>
+                            <li><i class="fas fa-clock"></i>1 hour</li>
+                        </ul>
+                          <h3 class="card-title">Pilates</h3>
+                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat exercitationem soluta nostrum qui alias quisquam nihil quidem porro veniam sequi!</p>
+                          <a href="#" class="btn btn-lg btn-outline-primary">Read more</a>
+                      </div>
+                    </article>
+                  </div>
+                  <div class="col">
+                    <article class="card-dark h-100">
+                      <img src="./assets/media/kickbox.jpg" class="card-img-top" alt="">
+                      <div class="card-body">
+                        <ul class="icons d-flex justify-content-between ps-0">
+                            <li><i class="fas fa-calendar"></i>Mon - Sat</li>
+                            <li><i class="fas fa-clock"></i>1 hour</li>
+                        </ul>
+                          <h3 class="card-title">Kickbox</h3>
+                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat exercitationem soluta nostrum qui alias quisquam nihil quidem porro veniam sequi!</p>
+                          <a href="#" class="btn btn-lg btn-outline-primary">Read more</a>
+                      </div>
+                    </article>
+                  </div>
+            </div>
+        </section>
+        <!-- Pricing -->
+        <section class="pricing" id="pricing" aria-label="Pricing">
+            <div class="container mx-auto">
+                <div class="heading">
+                    <p>Our plans</p>
+                    <h2>Choose your perfect plan</h2>
+                </div>
+                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 my-auto">
+                    <div class="col">
+                        <article class="card-dark h-100 text-center">
+                            <div class="card-header">
+                                <h3 class="py-4">Basic</h3>
+                                <p class="display-5 my-3 fw-bold"><sup>$</sup>35<span>/mo</span></p>
+                            </div>
+                            <div class="card-body">
+                                <ul class="ps-0 my-3">
+                                    <li><i class="fas fa-check"></i>Access to gym</li>
+                                    <li><i class="fas fa-check"></i>Weekly classes</li>
+                                    <li><i class="fas fa-check"></i>Personal trainer</li>
+                                    <li><i class="fas fa-times"></i>Diet plan</li>
+                                    <li><i class="fas fa-times"></i>Membership</li>
+                                </ul>
+                            <a href="#" class="btn btn-lg btn-outline-primary my-3">Choose</a>
+                            </div>
+                
+                        </article>
+                    </div>
+                    <div class="col">
+                        <article class="card-dark h-100 text-center">
+                            <div class="card-header">
+                                <h3 class="py-4">Standard</h3>
+                                <p class="display-5 my-3 fw-bold"><sup>$</sup>65<span>/mo</span></p>
+                            </div>
+                            <div class="card-body">
+                                <ul class="ps-0 my-3">
+                                    <li><i class="fas fa-check"></i>Access to gym</li>
+                                    <li><i class="fas fa-check"></i>Weekly classes</li>
+                                    <li><i class="fas fa-check"></i>Personal trainer</li>
+                                    <li><i class="fas fa-check"></i>Diet plan</li>
+                                    <li><i class="fas fa-times"></i>Membership</li>
+                                </ul>
+                            <a href="#" class="btn btn-lg btn-outline-primary my-3">Choose</a>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col">
+                        <article class="card-dark h-100 text-center">
+                            <div class="card-header">
+                                <h3 class="py-4">Premium</h3>
+                                <p class="display-5 my-3 fw-bold"><sup>$</sup>100<span>/mo</span></p>
+                            </div>
+                            <div class="card-body">
+                                <ul class="ps-0 my-3">
+                                    <li><i class="fas fa-check"></i>Access to gym</li>
+                                    <li><i class="fas fa-check"></i>Weekly classes</li>
+                                    <li><i class="fas fa-check"></i>Personal trainer</li>
+                                    <li><i class="fas fa-check"></i>Diet plan</li>
+                                    <li><i class="fas fa-check"></i>Membership</li>
+                                </ul>
+                            <a href="#" class="btn btn-lg btn-outline-primary my-3">Choose</a>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section> 
+
+        <!--Team-->
+        <section class="team text-center" id="team" aria-label="Our team">
+            <div class="container">
+                <div class="heading">
+                    <p class="subtitle">Our team</p>
+                    <h2>Meet our expert trainers</h2>
+                </div>
+                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+                    <div class="col">
+                        <article class="box">
+                            <div class="content">
+                                <p>Gym coach</p>
+                                <h3>John Stone</h3>
+                                <ul class="social d-flex justify-content-center ps-0">
+                                    <li><a href="https://www.facebook.com" class="social-link" aria-label="Follow coach on Facebook"><i class="fab fa-facebook"></i></a></li>
+                                    <li><a href="https://www.twitter.com" aria-label="Follow coach on Twitter"><i class="fab fa-twitter" ></i></a></li>
+                                    <li><a href="https://www.instagram.com" aria-label="Follow coach on Instagram"><i class="fab fa-instagram"></i></a></li>
+                                    <li><a href="https://www.linkedin.com"aria-label="Follow coach on Linkedin"><i class="fab fa-linkedin"></i></a></li>
+                                </ul>
+                            </div>
+                            <img src="./assets/media/trainer1.jpg" class="img-fluid" alt="">
+                        </article>
+                    </div>
+                    <div class="col">
+                        <article class="box">
+                            <div class="content">
+                                <p>Gym coach</p>
+                                <h3>Jane Joe</h3>
+                                <ul class="social d-flex justify-content-center ps-0">
+                                    <li><a href="https://www.facebook.com" class="social-link" aria-label="Follow coach on Facebook"><i class="fab fa-facebook"></i></a></li>
+                                    <li><a href="https://www.twitter.com" aria-label="Follow coach on Twitter"><i class="fab fa-twitter" ></i></a></li>
+                                    <li><a href="https://www.instagram.com" aria-label="Follow coach on Instagram"><i class="fab fa-instagram"></i></a></li>
+                                    <li><a href="https://www.linkedin.com"aria-label="Follow coach on Linkedin"><i class="fab fa-linkedin"></i></a></li>
+                                </ul>
+                            </div>
+                            <img src="./assets/media/trainer2.jpg" class="img-fluid" alt="">
+                        </article>
+                    </div>
+                    <div class="col">
+                        <article class="box">
+                            <div class="content">
+                                <p>Gym coach</p>
+                                <h3>Bill Bone</h3>
+                                <ul class="social d-flex justify-content-center ps-0">
+                                    <li><a href="https://www.facebook.com" class="social-link" aria-label="Follow coach on Facebook"><i class="fab fa-facebook"></i></a></li>
+                                    <li><a href="https://www.twitter.com" aria-label="Follow coach on Twitter"><i class="fab fa-twitter" ></i></a></li>
+                                    <li><a href="https://www.instagram.com" aria-label="Follow coach on Instagram"><i class="fab fa-instagram"></i></a></li>
+                                    <li><a href="https://www.linkedin.com"aria-label="Follow coach on Linkedin"><i class="fab fa-linkedin"></i></a></li>
+                                </ul>
+                            </div>
+                            <img src="./assets/media/trainer3.jpg" class="img-fluid" alt="">
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section> 
+
+        <!-- FAQ -->
+        <section class="faq" id="faq" aria-label="faq">
+            <div class="container">
+                <div class="heading">
+                    <p class="subtitle">FAQ</p>
+                    <h2>You ask, our experts answer</h2>
+                </div>
+            
+                <div class="row row-cols-1 row-cols-lg-2 g-2">
+                    <div class="col">
+                        <!--accordion-->
+                        <div class="accordion" id="accordionExample">
+                            <div class="accordion-item">
+                            <h3 class="accordion-header" id="headingOne">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, fugit?
+                                </button>
+                            </h3>
+                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius laborum repellat similique placeat iste. Nulla fugiat vero aliquid dolorum commodi veniam repellat? Odit voluptas eveniet voluptatibus officiis.</p>
+                                </div>
+                            </div>
+                            </div>
+                            <div class="accordion-item">
+                            <h3 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem ipsum recusandae voluptatibus exercitationem fugiat?
+                                </button>
+                            </h3>
+                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt corporis quas vitae facere ad recusandae sapiente placeat id soluta velit voluptate ullam fugit omnis adipisci excepturi, accusantium quo laboriosam rem totam tempore corrupti.</p>
+                                </div>
+                            </div>
+                            </div>
+                            <div class="accordion-item">
+                            <h3 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum iure pariatur autem?
+                                </button>
+                            </h3>
+                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius, aperiam id illo fugiat natus distinctio commodi enim optio excepturi doloribus alias? Totam maxime quibusdam aperiam.</p>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col order-first order-lg-last">
+                        <img src="./assets/media/faq.jpg" alt="">
+                    </div>
+                </div>
+                
+            </div>            
+        </section>
+
+        <!--Contact-->
+        <section class="contact px-4" id="contact" aria-label="Contact us">
+            <div class="row row-cols-1 row-cols-lg-2">
+                <div class="col order-lg-last my-auto">
+                    <div class="heading">
+                        <h2>Contact us today and get up to <span class="display-1 fw-bold text-primary">75%</span> discount</h2>
+                    </div>
+                </div>
+                <div class="col">
+                    <form class="row g-3">
+                        <div class="col-md-6">
+                            <label for="firstName" class="form-label">First name</label>
+                            <input type="text" class="form-control" id="firstName">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="lastName" class="form-label">Last name</label>
+                            <input type="text" class="form-control" id="lastName">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="email" placeholder="@">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="inputCity" class="form-label">City</label>
+                            <input type="text" class="form-control" id="inputCity">
+                        </div>
+                        <div class="col-12">
+                            <textarea name="message" id="message" cols="30" rows="10" placeholder="Your message here" class="w-100"></textarea>
+                        </div>
+                        <div class="col-12">
+                            <button type="submit" class="btn btn-lg btn-primary">Send</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+       <!-- Footer -->
+       <footer class="footer py-5">
+           <div class="container mx-auto">
+               <div class="row row-cols-1 row-cols-md-3 g-4">
+                   <div class="col">
+                        <h4>Useful links</h4>
+                        <ul>
+                            <li><a href="#home"><i class="fas fa-angle-right"></i>Home</a></li>
+                            <li><a href="#about"><i class="fas fa-angle-right"></i>About</a></li>
+                            <li><a href="#courses"><i class="fas fa-angle-right"></i>Courses</a></li>
+                            <li><a href="#pricing"><i class="fas fa-angle-right"></i>Pricing</a></li>
+                            <li><a href="#team"><i class="fas fa-angle-right"></i>Team</a></li>
+                            <li><a href="#blog"><i class="fas fa-angle-right"></i>Blog</a></li>
+                        </ul>
+                   </div>
+                   <div class="col">
+                       <h4>Contact info</h4>
+                        <ul>
+                            <li><a href="tel:+111222333"><i class="fas fa-phone"></i>+11 122 2333</a></li>
+                            <li><a href="tel:+123456789"><i class="fas fa-phone"></i>+12 345 6789</a></li>
+                            <li><a href="mailto:info@fitness.com"><i class="fas fa-envelope"></i>info@fitness.com</a></li>
+                            <li><a href="http://maps.google.com"><i class="fas fa-map"></i>First Avenue, Michigan</a></li>
+                        </ul>
+                   </div>
+                   <div class="col">
+                        <h4>Follow us</h4>
+                            <ul>
+                                <li><a href="https://www.facebook.com"><i class="fab fa-facebook"></i>Facebook</a></li>
+                                <li><a href="https://www.twitter.com"><i class="fab fa-twitter"></i>Twitter</a></li>
+                                <li><a href="https://www.instagram.com"><i class="fab fa-instagram"></i>Instagram</a></li>
+                                <li><a href="https://www.linkedin.com"><i class="fab fa-linkedin"></i>Linkedin</a></li>
+                            </ul>
+                   </div>
+               </div>
+           </div>
+    </footer>
+    <div class="credit">
+        <p class="text-center">Created by abarisic1509</p>
+    </div>
+
+    <script type="module" src="./assets/js/custom.js"></script>
+</body>
+</html>
