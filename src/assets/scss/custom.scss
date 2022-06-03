@@ -87,7 +87,7 @@ header {
 }
 .navbar-collapse .navbar-nav {
     align-items: center;
-    padding-block: 2em;
+    padding-block: 1em;
 }
 .navbar-collapse.show .navbar-nav {
     transition-delay: 0;
@@ -246,4 +246,10 @@ footer {
         padding-left: 0;
     }
         
+}
+
+@media (min-width: 1400px) {
+    body {font-size: 1.4rem;}
+    h1 { font-size: 5rem;}
+
 }

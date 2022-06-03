@@ -11603,7 +11603,7 @@ header.active {
 
 .navbar-collapse .navbar-nav {
   align-items: center;
-  padding-block: 2em;
+  padding-block: 1em;
 }
 
 .navbar-collapse.show .navbar-nav {
@@ -11755,6 +11755,16 @@ header.active {
 
 .footer ul {
   padding-left: 0;
+}
+
+@media (min-width: 1400px) {
+  body {
+    font-size: 1.4rem;
+  }
+
+  h1, .h1 {
+    font-size: 5rem;
+  }
 }
 
 /*# sourceMappingURL=index.b80c0d94.css.map */
